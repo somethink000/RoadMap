@@ -7,6 +7,7 @@
 import {computed, defineComponent} from 'vue';
 import {useStore} from "vuex";
 
+
 export default defineComponent({
 	components: {},
 	setup() {

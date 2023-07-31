@@ -16,6 +16,6 @@ use App\Http\Controllers\api\ObjectionController;
 */
 Route::resource('objections', ObjectionController::class);
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });

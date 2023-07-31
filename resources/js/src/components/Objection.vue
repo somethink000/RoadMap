@@ -1,5 +1,6 @@
 <template>
-    <div class="uk-card uk-card-default uk-width-1-2@m">
+    <h1>objection</h1>
+    <!-- <div class="uk-card uk-card-default uk-width-1-2@m">
         <div class="uk-card-header">
             <div class="uk-grid-small uk-flex-middle" uk-grid>
                 <div class="uk-width-expand">
@@ -16,7 +17,7 @@
         <div class="uk-card-footer">
             <a href="#" class="uk-button uk-button-text">Read more</a>
         </div>
-    </div>
+    </div> -->
 </template>
 
 <script>
@@ -26,20 +27,20 @@ import { defineComponent } from 'vue';
         setup() {
 			return {};
 		},
-        props: {
-            title: {
-                type: String,
-                default: "NULL"
-            },
-            body: {
-                type: String,
-                default: "NULL"
-            },
-            date: {
-                type: String,
-                default: "NULL"
-            }
-        }
+        // props: {
+        //     title: {
+        //         type: String,
+        //         default: "NULL"
+        //     },
+        //     body: {
+        //         type: String,
+        //         default: "NULL"
+        //     },
+        //     date: {
+        //         type: String,
+        //         default: "NULL"
+        //     }
+        // }
        
     });
 </script>

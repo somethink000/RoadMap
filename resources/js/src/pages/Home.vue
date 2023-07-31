@@ -5,9 +5,6 @@
         <div style="display:flex; flex-wrap: wrap;" v-else>
             <post
                 v-for="post in posts"
-                :title="post.title"
-                :body="post.body"
-                :date="post.created_at"
             />
         </div>
     </div>
@@ -32,8 +29,9 @@
         },
         methods: {
             loadPosts() {
-                axios.get('/api/objections')
+                axios.get('api/objections')
                 .then(res => {
+					console.log(res.data);
                     this.posts = res.data;
                     setTimeout(() => {
                         this.loading = false;

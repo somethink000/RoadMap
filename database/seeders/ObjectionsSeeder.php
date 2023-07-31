@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Hash;
-use Spatie\Permission\Models\Objection;
+use App\Models\Objection;
 
 class ObjectionsSeeder extends Seeder
 {

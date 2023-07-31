@@ -20,7 +20,7 @@ export default defineComponent({
 		const increment = () => {
 			store.commit('increment');
 		};
-
+		
 		return {
 			counter,
 			increment
